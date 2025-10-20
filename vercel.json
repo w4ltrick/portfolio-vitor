@@ -12,6 +12,6 @@
   "routes": [
     { "src": "/(.*)", "dest": "/index.html" }
   ],
-  "installCommand": "pnpm install",
+  "installCommand": "corepack enable && pnpm install --no-frozen-lockfile",
   "buildCommand": "pnpm build"
 }
